@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinkerPD – Documentation | PF Circuits</title>
+<meta name="description" content="TinkerPD V1.0 USB Power Delivery trigger board – user manual, EU Declaration of Conformity and FCC compliance information.">
+<style>
+  :root {
+    --bg: #f6f7f8; --card: #ffffff; --text: #1b1f23; --muted: #5b6470;
+    --line: #dde1e6; --accent: #b3121b; --accent-bg: #fbeced;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14171a; --card: #1d2125; --text: #e7eaee; --muted: #9aa3ad;
+            --line: #2e343a; --accent: #ff5a62; --accent-bg: #2a1a1c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+  .brand { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  h1 { font-size: 30px; margin: 4px 0 2px; }
+  .sub { color: var(--muted); margin: 0; }
+  h2 { font-size: 19px; margin: 32px 0 12px; }
+  .docs { display: grid; gap: 12px; }
+  a.doc { display: flex; justify-content: space-between; align-items: center; gap: 16px;
+          background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+          padding: 16px 18px; color: inherit; text-decoration: none; }
+  a.doc:hover, a.doc:focus-visible { border-color: var(--accent); outline: none; }
+  .doc b { display: block; font-size: 17px; }
+  .doc span { color: var(--muted); font-size: 14px; }
+  .doc .tag { flex: none; font-size: 13px; font-weight: 600; color: var(--accent);
+              background: var(--accent-bg); border-radius: 6px; padding: 4px 8px; }
+  section.box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  section.box p { margin: 0 0 12px; }
+  section.box ul { margin: 0 0 12px; padding-left: 20px; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0 0 16px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  .note { border-left: 3px solid var(--accent); padding-left: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+  footer a { color: inherit; }
+  @media (max-width: 520px) { dl { grid-template-columns: 1fr; } dt { margin-top: 6px; } h1 { font-size: 26px; } }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="brand">PF Circuits</p>
+  <h1>TinkerPD V1.0</h1>
+  <p class="sub">USB Power Delivery trigger board – product documentation</p>
+</header>
+
+<h2>Documents</h2>
+<div class="docs">
+  <a class="doc" href="files/UM-TinkerPD-V1.0.pdf">
+    <div><b>User Manual</b><span>English · Deutsch · Italiano · Français · Español — Rev. 1.0</span></div>
+    <span class="tag">PDF</span>
+  </a>
+  <a class="doc" href="files/TinkerPD_EU-DoC_Rev1.0.pdf">
+    <div><b>EU Declaration of Conformity</b><span>CE marking — Rev. 1.0</span></div>
+    <span class="tag">PDF</span>
+  </a>
+  <a class="doc" href="#fcc">
+    <div><b>FCC Compliance Information</b><span>47 CFR Part 15, Class B — see below</span></div>
+    <span class="tag">TEXT</span>
+  </a>
+</div>
+
+<p class="note" style="margin-top:20px">Read the safety information in the printed Quick Start Guide and in section 1 of the User Manual before use.</p>
+
+<h2 id="fcc">FCC Compliance Information</h2>
+<section class="box">
+  <dl>
+    <dt>Product</dt><dd>TinkerPD V1.0 – USB Power Delivery trigger board</dd>
+    <dt>Model</dt><dd>TinkerPD V1.0</dd>
+    <dt>Responsible party (USA)</dt><dd>[Company name]<br>[Address, City, State, ZIP]<br>[Phone / e-mail]</dd>
+  </dl>
+
+  <p>This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.</p>
+
+  <p><strong>Note:</strong> This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures:</p>
+  <ul>
+    <li>Reorient or relocate the receiving antenna.</li>
+    <li>Increase the separation between the equipment and receiver.</li>
+    <li>Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.</li>
+    <li>Consult the dealer or an experienced radio/TV technician for help.</li>
+  </ul>
+
+  <p style="margin:0"><strong>Caution:</strong> Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.</p>
+</section>
+
+<h2>Manufacturer</h2>
+<section class="box">
+  <p style="margin:0">Paul File<br>Untere Darre 9<br>6534 Serfaus, Austria<br>
+  <a href="mailto:support@pfcircuits.com" style="color:var(--accent)">support@pfcircuits.com</a></p>
+</section>
+
+<h2>Revision history</h2>
+<section class="box" style="padding:8px 14px">
+  <table>
+    <tr><th>Document</th><th>Rev.</th><th>Date</th></tr>
+    <tr><td><a href="files/UM-TinkerPD-V1.0.pdf">User Manual</a></td><td>1.0</td><td>2026-11</td></tr>
+    <tr><td><a href="files/TinkerPD_EU-DoC_Rev1.0.pdf">EU Declaration of Conformity</a></td><td>1.0</td><td>2026-11</td></tr>
+  </table>
+</section>
+
+<footer>
+  <p>pfcircuits.com/tinkerpd · © 2026 PF Circuits</p>
+</footer>
+
+</main>
+</body>
+</html>
